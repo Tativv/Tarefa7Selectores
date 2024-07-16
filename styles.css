@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px; 
+}
+
+.square {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #fff;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.corner {
+    border: 1.5px solid black;
+}
+
+.corner:hover {
+    background-color: rgb(14, 1, 1);
+}
